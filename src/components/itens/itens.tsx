@@ -12,7 +12,7 @@ interface ItensProps {
 
 const Itens = (props: ItensProps) => {
     const [notesFuncionActivated, setNotesFunctionActivated] = useState<Boolean>(false);
-
+    const [selectNoteColor, setSelectNoteColor] = useState<Boolean>(false);
 
     const handleClickNotes = (event: React.MouseEvent) => {
         event.stopPropagation();
