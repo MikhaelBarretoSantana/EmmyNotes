@@ -1,0 +1,50 @@
+.itens-container {
+    background: rgb(234, 235, 237);
+    height: 30%;
+    width: 5%;
+    left: 0;
+    bottom: 35%;
+    position: absolute;
+    border-top-right-radius: 15px;
+    box-shadow: -1px -1px 20px 4px #ccc;
+    border-bottom-right-radius: 15px;
+
+    .icons-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .icon-container {
+        width: 100%;
+        display: flex;
+        margin: auto auto;
+    }
+
+    .icons {
+        color: #006989;
+        height: 80%;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0.4em;
+        transition: 0.2s linear;
+        cursor: pointer;
+
+    }
+
+    .icons:hover {
+        color: #01A7C2;
+        transform: scale(1.2, 1.2);
+    }
+
+    .icons-disabled {
+        color: #0069892a;
+        height: 80%;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0.4em;
+        transition: 1s linear;
+        cursor: not-allowed;
+    }
+}

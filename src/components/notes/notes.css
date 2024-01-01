@@ -1,0 +1,61 @@
+:root {
+    --postItColorYellow: #FBF8CC;
+    --postItColorRed: #FFCFD2;
+    --postItColorOrange: #FDE4CF;
+    --postItColorPink: #F1C0E8;
+    --postItColorPurple: #CFBAF0;
+    --postItColorDarkBlue: #A3C4F3;
+    --postItColorBlue: #90DBF4;
+    --postItColorLightBlue: #8EECF5;
+    --postItColorGreen: #98F5E1;
+    --postItColorLightGreen: #B9FBC0;
+}
+
+.postIt {
+    position: absolute;
+    width: 17%;
+    height: 30%;
+    box-shadow: 0px 20px 20px #ccc;
+    color: #000;
+    transition: 1s linear;
+}
+
+.yellow {
+    background: var(--postItColorYellow);
+}
+
+.red {
+    background: var(--postItColorRed);
+}
+
+.orange {
+    background: var(--postItColorOrange);
+}
+
+.pink {
+    background: var(--postItColorPink);
+}
+
+.purple {
+    background: var(--postItColorPurple)
+}
+
+.darkBlue {
+    background: var(--postItColorDarkBlue);
+}
+
+.blue {
+    background: var(--postItColorBlue);
+}
+
+.lightBlue {
+    background: var(--postItColorLightBlue)
+}
+
+.green {
+    background: var(--postItColorGreen);
+}
+
+.lightGreen {
+    background: var(--postItColorLightGreen);
+}
