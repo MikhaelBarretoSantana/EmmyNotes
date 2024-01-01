@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# EmmyNotes
+
+EmmyNotes is a project in React TS that allows you to create and organize notes on a virtual board. You can add, edit, and delete your annotations, as well as customize the board's layout and theme. EmmyNotes is a simple and practical tool for recording your ideas and reminders.
+
+Emmynotes is a personal project that aims to practice and deepen my knowledge of React TypeScript and help my girlfriend develop in this language.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
